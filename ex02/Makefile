@@ -2,7 +2,7 @@ NAME = ex02
 CC = c++ -std=c++98
 CFLAGS =  -Wall -Wextra -Werror
 
-SRC = main.cpp MultantStack.cpp
+SRC = main.cpp
 all: $(NAME)
 
 OBJ = $(SRC:.cpp=.o)
